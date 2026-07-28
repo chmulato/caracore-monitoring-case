@@ -23,7 +23,7 @@ DECISÕES DE DESENVOLVIMENTO (FOCO AVALIATIVO)
 COMO RODAR
 ----------
 
-Navegue até a pasta frontend/velsis-frontend no seu terminal:
+Navegue até a pasta frontend/caracore-monitoring-case no seu terminal:
 
 1. Instale as dependências:
 npm install

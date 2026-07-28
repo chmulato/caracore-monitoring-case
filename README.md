@@ -142,7 +142,7 @@ workspace_velsis/
  │         └── service/
  ├── frontend/
  │    ├── README_FRONTEND.md
- │    └── velsis-frontend/
+ │    └── caracore-monitoring-case/
  │         ├── package.json
  │         ├── public/
  │         ├── src/
