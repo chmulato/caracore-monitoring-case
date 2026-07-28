@@ -1,4 +1,4 @@
-D:\onedrive\outros\workspace_velsis_hd\frontend\velsis-frontend>type package.json
+D:\onedrive\outros\workspace_velsis\frontend\velsis-frontend>type package.json
 {
   "name": "velsis-frontend",
   "version": "1.0.0",
@@ -24,4 +24,4 @@ D:\onedrive\outros\workspace_velsis_hd\frontend\velsis-frontend>type package.jso
   }
 }
 
-D:\onedrive\outros\workspace_velsis_hd\frontend\velsis-frontend>
+D:\onedrive\outros\workspace_velsis\frontend\velsis-frontend>
