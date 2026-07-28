@@ -12,6 +12,9 @@ A solução busca responder a uma necessidade prática de supervisão e controle
 - consulta e rastreabilidade de ocorrências;
 - organização técnica voltada para manutenção e evolução.
 
+## Cenário de aplicação
+A proposta foi pensada como uma solução prática para um cenário real de operação viária, em que equipes precisam validar eventos de velocidade, identificar infrações e manter rastreabilidade de ocorrências com confiança e clareza.
+
 ## Abordagem adotada
 A proposta foi estruturada com base em:
 - API REST organizada em camadas;
@@ -25,7 +28,8 @@ O projeto demonstra que a equipe é capaz de transformar uma necessidade operaci
 - qualidade;
 - arquitetura;
 - clareza de comunicação;
-- preparo para evolução futura.
+- preparo para evolução futura;
+- aplicação prática em um contexto real de supervisão.
 
 ## Mensagem de posicionamento
-Este case representa mais do que uma implementação técnica: é uma demonstração de capacidade de pensar em solução, com visão de produto, arquitetura e entrega profissional.
+Este case representa mais do que uma implementação técnica: é uma demonstração de capacidade de pensar em solução, com visão de produto, arquitetura e entrega profissional para um cenário real.

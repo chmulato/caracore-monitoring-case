@@ -38,7 +38,22 @@ Essa abordagem torna o projeto mais alinhado com uma visão de serviço prestado
 
 ---
 
-## 3. Proposta de solução
+## 3. Cenário prático de aplicação
+
+Imagine uma operação viária em que uma equipe precisa acompanhar eventos de velocidade, validar se houve infração, registrar a ocorrência e manter rastreabilidade para análise posterior. Nesse cenário, o sistema precisa apoiar não apenas a decisão técnica, mas também a operação diária, com clareza, consistência e confiabilidade.
+
+Os principais atores desse contexto são:
+
+- operadores de campo e supervisão;
+- equipes responsáveis por monitoramento e apuração;
+- gestores que precisam compreender o fluxo e tomar decisões com base em dados confiáveis;
+- times de manutenção e evolução que precisam de uma base bem estruturada para crescer.
+
+Nesse contexto, a solução deixa de ser apenas um exercício técnico e passa a representar uma resposta prática a um problema real de operação.
+
+---
+
+## 4. Proposta de solução
 
 A solução proposta foi organizada em torno de um núcleo de negócio robusto, com foco em:
 

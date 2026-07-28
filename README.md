@@ -34,6 +34,12 @@ O núcleo do projeto implementa um microserviço que processa leituras de veloci
 
 Esta solução é apresentada não apenas como um desafio técnico, mas como uma proposta de serviço prestado, com foco em clareza, organização, qualidade e potencial de evolução.
 
+## Problema → Solução → Impacto → Evolução
+- Problema: necessidade de apurar eventos de velocidade com regras claras, rastreabilidade e capacidade de suporte operacional.
+- Solução: implementação de um serviço organizado em torno de regras de negócio, API REST, documentação e estrutura preparada para evolução.
+- Impacto: demonstra uma visão mais madura de software, com foco em confiabilidade, clareza e valor para operação.
+- Evolução: a base construída pode crescer para monitoramento contínuo, observabilidade e integrações mais amplas.
+
 ---
 
 ## 1. Tecnologias Utilizadas
