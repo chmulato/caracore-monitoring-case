@@ -1,5 +1,5 @@
 -- ==============================================================================
--- Velsis Monitoramento - Script de Criação do Banco (PostgreSQL)
+-- Cara Core Monitoramento - Script de Criação do Banco (PostgreSQL)
 -- ==============================================================================
 
 -- Tabela de Configurações Gerais

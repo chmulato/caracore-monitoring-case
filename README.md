@@ -97,7 +97,7 @@ Recomendação de governança:
 ## 2. Estrutura de Empacotamento (Atualizada)
 
 ```plaintext
-workspace_velsis/
+caracore-monitoring-case/
  ├── README.md
  ├── pom.xml
  ├── src/
