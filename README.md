@@ -1,9 +1,9 @@
 # Case Único Velsis
 ## Plataforma de monitoramento e apuração de eventos viários
 
-Projeto desenvolvido como um case profissional para a Velsis Sistemas e Tecnologia Viária, unindo a solução de apuração de infrações de velocidade com uma visão mais ampla de monitoramento operacional, arquitetura e evolução de software.
+Este repositório apresenta o trabalho consolidado da Velsis como um único case profissional, unindo a solução de apuração de infrações de velocidade com uma visão mais ampla de monitoramento operacional, arquitetura e evolução de software.
 
-Este repositório foi organizado para funcionar como um portfólio de serviço prestado, com uma estrutura profissional, coerente e alinhada a um discurso único de solução.
+A ideia central é demonstrar uma proposta de solução coerente, organizada e preparada para apresentação em entrevistas, avaliação técnica e portfólio.
 
 ## Estrutura profissional do repositório
 - [docs](docs): documentos de contexto, narrativa e referências do case.
