@@ -124,7 +124,30 @@ Ao apresentar o projeto, vale destacar:
 
 ---
 
-## 8. Conclusão
+## 8. Regras atualizadas (RF e RNF) — visão executiva
+
+Para manter alinhamento entre narrativa de negócio e evidência técnica, o case adota a seguinte matriz resumida de requisitos atualizados:
+
+### Requisitos Funcionais (RF)
+- RF1: endpoint de apuração com validação de header x-origin (FIXED, MOBILE, HANDHELD), resposta 200 para cenários com e sem infração e padronização de erros 400.
+- RF2: validações obrigatórias de placa (formatos antigo e Mercosul), velocidades, equipmentId, timestamp ISO-8601 e restrição de data futura.
+- RF3: regra de tolerância legal (fixa até 100 km/h e percentual acima de 100 km/h), cálculo de excesso e classificação CTB (MEDIUM, SERIOUS, VERY_SERIOUS).
+- RF4: persistência em memória apenas para infrações, consulta por placa com retorno de lista vazia quando aplicável e preocupação com acesso concorrente.
+- RF5: tratamento centralizado de exceções, sem exposição de detalhes internos, com rastreabilidade por logs e distinção entre falhas 4xx e 5xx.
+- RF6: cobertura de casos especiais e fronteiras de regra (inclusive 20% e 50%, tolerância e timestamp futuro).
+
+### Requisitos Não Funcionais (RNF)
+- RNF1: organização em camadas com responsabilidades claras e decisões de arquitetura documentadas.
+- RNF2: configuração externalizada com parâmetros mínimos de porta e tolerâncias (fixa, percentual e limite de aplicação).
+- RNF3: testes unitários e de integração com foco em regras de negócio, validações, casos de fronteira e cobertura mínima alvo da camada crítica.
+- RNF4: documentação de execução, uso, testes e decisões técnicas, com contrato de API documentado.
+- RNF5: qualidade de código orientada a legibilidade, boas práticas REST, tratamento de exceções e redução de boilerplate.
+
+Essa matriz garante rastreabilidade entre o que é apresentado para negócio e o que é comprovado tecnicamente no repositório.
+
+---
+
+## 9. Conclusão
 
 Sim, faz sentido unir os dois desafios em um único case para a Velsis.
 
