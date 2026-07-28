@@ -1,0 +1,52 @@
+openapi: 3.0.1
+info:
+  title: Velsis Monitoramento API
+  description: |
+    API REST para o sistema de monitoramento de recursos embarcados e periféricos.
+    Nota: Esta é uma exportação estática da documentação. Para acessar a versão interativa 
+    completa gerada automaticamente em tempo real, execute o Backend (Spring Boot) 
+    e acesse: http://localhost:8080/swagger-ui.html
+  version: 1.0.0
+servers:
+  - url: http://localhost:8080
+    description: Servidor de Desenvolvimento Local
+paths:
+  /api/dashboard:
+    get:
+      tags:
+        - Dashboard
+      summary: Retorna todas as métricas e status consolidados para a tela inicial
+      responses:
+        "200":
+          description: Sucesso (Retorna status de Internet, Disco, Câmeras e Alertas recentes)
+  /api/cameras:
+    get:
+      tags:
+        - Câmeras
+      summary: Lista todas as câmeras cadastradas
+      responses:
+        "200":
+          description: OK
+    post:
+      tags:
+        - Câmeras
+      summary: Cadastra uma nova câmera no sistema
+      responses:
+        "201":
+          description: Created
+  /api/configuracao:
+    get:
+      tags:
+        - Configurações
+      summary: Retorna as configurações de limiares e periodicidade do sistema
+      responses:
+        "200":
+          description: OK
+  /api/alertas:
+    get:
+      tags:
+        - Alertas
+      summary: Retorna os alertas recentes gerados pelos Schedulers (Falhas de ping, disco cheio, etc.)
+      responses:
+        "200":
+          description: OK

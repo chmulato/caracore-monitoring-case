@@ -1,8 +1,38 @@
-# Speed Violation Service
+# Case Único Velsis
+## Plataforma de monitoramento e apuração de eventos viários
 
-Microserviço desenvolvido como prova prática para a Velsis Sistemas e Tecnologia Viária.  
-O serviço processa leituras de velocidade captadas por equipamentos de fiscalização, aplica a tolerância legal, calcula o excesso percentual e determina se houve infração conforme o Código de Trânsito Brasileiro (CTB).  
-Infrações são armazenadas em memória e podem ser consultadas por placa.
+Projeto desenvolvido como um case profissional para a Velsis Sistemas e Tecnologia Viária, unindo a solução de apuração de infrações de velocidade com uma visão mais ampla de monitoramento operacional, arquitetura e evolução de software.
+
+Este repositório foi organizado para funcionar como um portfólio de serviço prestado, com uma estrutura profissional, coerente e alinhada a um discurso único de solução.
+
+## Estrutura profissional do repositório
+- [docs](docs): documentos de contexto, narrativa e referências do case.
+- [architecture](architecture): visão arquitetural e posicionamento da solução.
+- [deliverables](deliverables): artefatos prontos para apresentação e avaliação.
+- [assets](assets): materiais visuais e recursos complementares.
+
+## Documento central
+- [docs/case_unico_velsis.md](docs/case_unico_velsis.md)
+- [docs/case/README.md](docs/case/README.md)
+- [docs/hd/README_HD.md](docs/hd/README_HD.md)
+
+## Artefatos migrados do desafio HD
+- [backend](backend): backend do desafio expandido
+- [frontend](frontend): frontend conceitual do caso
+- [sql](sql): script de modelagem do banco
+- [swagger](swagger): contrato OpenAPI
+- [docs/hd](docs/hd): documentação complementar do desafio HD
+
+## Materiais de apresentação
+- [deliverables/resumo_executivo.md](deliverables/resumo_executivo.md)
+- [deliverables/roteiro_apresentacao.md](deliverables/roteiro_apresentacao.md)
+- [deliverables/pitch_case.md](deliverables/pitch_case.md)
+- [architecture/visao_arquitetura.md](architecture/visao_arquitetura.md)
+
+## Visão do projeto
+O núcleo do projeto implementa um microserviço que processa leituras de velocidade captadas por equipamentos de fiscalização, aplica a tolerância legal, calcula o excesso percentual e determina se houve infração conforme o Código de Trânsito Brasileiro (CTB). Infrações são armazenadas em memória e podem ser consultadas por placa.
+
+Esta solução é apresentada não apenas como um desafio técnico, mas como uma proposta de serviço prestado, com foco em clareza, organização, qualidade e potencial de evolução.
 
 ---
 
