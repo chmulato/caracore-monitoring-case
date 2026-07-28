@@ -63,6 +63,20 @@ Exemplo de cálculo:
 
 Observação: valores variam por urgência, criticidade, profundidade de testes, nível de documentação exigido e responsabilidade de suporte pós-entrega.
 
+## Resguardo jurídico e boa-fé negocial
+Este material é apresentado para avaliação técnica e/ou negociação de prestação de serviço, com expectativa de boa-fé entre as partes.
+
+Licenca autoral e titularidade formal:
+- [LICENSE_PROPRIEDADE_INTELECTUAL.md](LICENSE_PROPRIEDADE_INTELECTUAL.md)
+
+Diretrizes de uso deste conteúdo:
+- o escopo apresentado não implica cessão automática de propriedade intelectual, transferência integral de know-how ou autorização de uso irrestrito sem ajuste formal;
+- qualquer aproveitamento além do contexto de avaliação deve ocorrer com instrumento contratual e remuneração compatível com o valor técnico da entrega;
+- em caso de uso indevido, desvio de finalidade, supressão de autoria ou aproveitamento econômico sem acordo, poderão ser adotadas medidas extrajudiciais e judiciais cabíveis para resguardo de direitos.
+
+Recomendação de governança:
+- formalizar escopo, propriedade intelectual, forma de uso, remuneração e critérios de aceite antes de qualquer reutilização produtiva do material.
+
 ## Problema → Solução → Impacto → Evolução
 - Problema: necessidade de apurar eventos de velocidade com regras claras, rastreabilidade e capacidade de suporte operacional.
 - Solução: implementação de um serviço organizado em torno de regras de negócio, API REST, documentação e estrutura preparada para evolução.
