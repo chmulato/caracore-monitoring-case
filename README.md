@@ -34,6 +34,35 @@ O núcleo do projeto implementa um microserviço que processa leituras de veloci
 
 Esta solução é apresentada não apenas como um desafio técnico, mas como uma proposta de serviço prestado, com foco em clareza, organização, qualidade e potencial de evolução.
 
+## Posicionamento do desafio (MVP)
+Este case deve ser lido como um MVP técnico orientado a necessidade real de operação, com escopo deliberadamente recortado para validar abordagem, arquitetura e capacidade de execução.
+
+Em termos objetivos:
+- não é uma entrega de produto completo em produção;
+- é uma prova de viabilidade técnica e de aderência ao problema de negócio;
+- demonstra base arquitetural e qualidade suficientes para evolução incremental com priorização de valor.
+
+## Referência de valor de prestação de serviço (mercado)
+Para evitar subavaliação de escopo, este tipo de entrega deve ser tratado como prestação técnica com valor econômico mensurável.
+
+Faixas de referência para um MVP com regras de negócio, API, testes, documentação e material de apresentação:
+- projeto fechado (profissional pleno/sênior): R$ 12.000 a R$ 35.000;
+- consultoria com maior nível de governança: R$ 25.000 a R$ 60.000;
+- contratação por hora: R$ 120 a R$ 300/h.
+
+Estimativa prática para o escopo deste case:
+- MVP sólido para validação operacional: R$ 18.000 a R$ 32.000;
+- incluindo refinamento executivo, handoff e plano de evolução: R$ 25.000 a R$ 45.000.
+
+Fórmula objetiva de precificação:
+- valor estimado = horas previstas x taxa/hora + margem de risco (10% a 25%).
+
+Exemplo de cálculo:
+- 120h x R$ 180/h = R$ 21.600;
+- com 20% de risco e gestão: R$ 25.920.
+
+Observação: valores variam por urgência, criticidade, profundidade de testes, nível de documentação exigido e responsabilidade de suporte pós-entrega.
+
 ## Problema → Solução → Impacto → Evolução
 - Problema: necessidade de apurar eventos de velocidade com regras claras, rastreabilidade e capacidade de suporte operacional.
 - Solução: implementação de um serviço organizado em torno de regras de negócio, API REST, documentação e estrutura preparada para evolução.
