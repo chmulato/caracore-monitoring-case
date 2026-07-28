@@ -1,6 +1,6 @@
 # Deliverables
 
-Esta pasta reúne os artefatos prontos para apresentação e uso profissional do case consolidado da Velsis.
+Esta pasta reúne os artefatos prontos para apresentação e uso profissional do case consolidado da Cara Core Informática.
 
 ## Conteúdo esperado
 - resumo executivo;

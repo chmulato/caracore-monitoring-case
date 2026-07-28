@@ -5,7 +5,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.mulato.velsis</groupId>
+    <groupId>br.com.caracore</groupId>
     <artifactId>monitoramento-backend</artifactId>
     <version>1.0.0</version>
     <name>monitoramento-backend</name>

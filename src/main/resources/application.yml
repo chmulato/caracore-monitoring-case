@@ -15,5 +15,5 @@ spring:
 logging:
   level:
     root: INFO
-    com.mulato.api.speedviolation: DEBUG
+    br.com.caracore.speedviolation: DEBUG
 

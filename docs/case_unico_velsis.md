@@ -1,8 +1,8 @@
-# CASE ÚNICO VELSIS
+# CASE DE ESTUDO CARA CORE INFORMÁTICA
 
 ## Plataforma de monitoramento e apuração de eventos viários
 
-Este documento consolida a proposta de solução em um único case profissional para apresentação à Velsis, unindo duas perspectivas do desafio:
+Este documento consolida a proposta de solução em um único case de estudo da Cara Core Informática, unindo duas perspectivas do desafio:
 
 1. a apuração de infrações de velocidade;
 2. a visão expandida de monitoramento de equipamentos, periféricos e fluxos de operação.
@@ -34,7 +34,7 @@ O desafio central é responder a uma necessidade prática de operação:
 - armazenar e consultar ocorrências;
 - oferecer uma base arquitetural capaz de evoluir para monitoramento contínuo e observabilidade.
 
-Essa abordagem torna o projeto mais alinhado com uma visão de serviço prestado, em vez de uma simples implementação técnica.
+Essa abordagem torna o projeto mais alinhado com uma visão de solução reutilizável para mercados similares, em vez de uma simples implementação técnica isolada.
 
 ---
 
@@ -103,7 +103,7 @@ Unificar os dois desafios em um único case traz vantagens claras:
 - apresenta uma visão mais coesa para recrutadores e clientes;
 - evita parecer que são exercícios desconectados;
 - reforça a ideia de evolução técnica e de arquitetura;
-- transforma o repositório em um portfólio de serviço prestado, e não apenas em um conjunto de projetos de estudo.
+- transforma o repositório em um case de estudo aplicável a soluções semelhantes, e não apenas em um conjunto de projetos de estudo.
 
 Em vez de dizer “eu fiz dois desafios”, o posicionamento passa a ser:
 
@@ -149,7 +149,7 @@ Essa matriz garante rastreabilidade entre o que é apresentado para negócio e o
 
 ## 9. Conclusão
 
-Sim, faz sentido unir os dois desafios em um único case para a Velsis.
+Sim, faz sentido unir os dois desafios em um único case para a Cara Core Informática.
 
 O resultado é uma apresentação mais profissional, com narrativa mais forte, melhor alinhada ao que se espera de um portfólio de serviço prestado.
 

@@ -1,4 +1,4 @@
-VELSIS - DESAFIO TÉCNICO (ENGENHARIA JÚNIOR)
+CASE ORIGINAL - DESAFIO TÉCNICO (ENGENHARIA JÚNIOR)
 ============================================
 
 Este repositório contém a solução conceitual e avaliativa para o desafio de monitoramento de recursos embarcados e periféricos. O projeto foi desenhado focando em arquitetura limpa, testabilidade e princípios SOLID, garantindo que as principais competências de engenharia de software sejam demonstradas de forma clara e objetiva.

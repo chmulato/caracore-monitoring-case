@@ -1,6 +1,6 @@
 # Documentação de Case
 
-Este diretório reúne os artefatos de narrativa, contexto e posicionamento do case único da Velsis, com foco em comunicar uma solução integrada e profissional.
+Este diretório reúne os artefatos de narrativa, contexto e posicionamento do case de estudo da Cara Core Informática, com foco em comunicar uma solução integrada, profissional e aplicável a mercados similares.
 
 ## Conteúdos
 - [case_unico_velsis.md](../case_unico_velsis.md): visão estratégica e narrativa complementar do projeto.

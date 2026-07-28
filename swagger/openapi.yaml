@@ -1,6 +1,6 @@
 openapi: 3.0.1
 info:
-  title: Velsis Monitoramento API
+  title: Cara Core Monitoramento API
   description: |
     API REST para o sistema de monitoramento de recursos embarcados e periféricos.
     Nota: Esta é uma exportação estática da documentação. Para acessar a versão interativa 

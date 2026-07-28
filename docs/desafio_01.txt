@@ -1,5 +1,5 @@
 # Prova Prática: Desenvolvedor(a) Backend Java 
-**Velsis Sistemas e Tecnologia Viária**  
+**Desafio original de mobilidade e fiscalização eletrônica**  
 **Vaga:** Desenvolvedor(a) FullStack Java | Curitiba/PR 
    
 ## Informações Gerais 
@@ -14,7 +14,7 @@
 ## Objetivo 
 Desenvolver um microserviço REST que processa leituras de velocidade captadas por equipamentos de fiscalização de trânsito e determina se houve infração por excesso de velocidade, classificando-a por gravidade conforme o Código de Trânsito Brasileiro (CTB).  
 
-O tema reflete o domínio real da Velsis (mobilidade viária / fiscalização eletrônica), mas todas as regras necessárias estão descritas neste documento; não é preciso conhecimento prévio de legislação de trânsito. 
+O tema reflete o domínio de mobilidade viária / fiscalização eletrônica, mas todas as regras necessárias estão descritas neste documento; não é preciso conhecimento prévio de legislação de trânsito.
   
 ## Descrição do Problema 
 Você deve criar um microserviço chamado `speed-violation-service` que:  

@@ -1,9 +1,9 @@
-# Case Único Velsis
+# Case de Estudo Cara Core Informática
 ## Plataforma de monitoramento e apuração de eventos viários
 
-Este repositório apresenta o trabalho consolidado da Velsis como um único case profissional, unindo a solução de apuração de infrações de velocidade com uma visão mais ampla de monitoramento operacional, arquitetura e evolução de software.
+Este repositório apresenta um case de estudo da Cara Core Informática, consolidando a solução de apuração de infrações de velocidade com uma visão mais ampla de monitoramento operacional, arquitetura e evolução de software.
 
-A ideia central é demonstrar uma proposta de solução coerente, organizada e preparada para apresentação em entrevistas, avaliação técnica e portfólio.
+A ideia central é demonstrar uma proposta de solução coerente, organizada e preparada para apresentação em entrevistas, avaliação técnica, portfólio e estudos de aplicação em mercados similares.
 
 ## Estrutura profissional do repositório
 - [docs](docs): documentos de contexto, narrativa e referências do case.
@@ -32,9 +32,9 @@ A ideia central é demonstrar uma proposta de solução coerente, organizada e p
 ## Visão do projeto
 O núcleo do projeto implementa um microserviço que processa leituras de velocidade captadas por equipamentos de fiscalização, aplica a tolerância legal, calcula o excesso percentual e determina se houve infração conforme o Código de Trânsito Brasileiro (CTB). Infrações são armazenadas em memória e podem ser consultadas por placa.
 
-Esta solução é apresentada não apenas como um desafio técnico, mas como uma proposta de serviço prestado, com foco em clareza, organização, qualidade e potencial de evolução.
+Esta solução é apresentada como um caso de estudo da Cara Core Informática, com foco em clareza, organização, qualidade e potencial de evolução para mercados similares como mobilidade, automação, segurança e operação embarcada.
 
-## Posicionamento do desafio (MVP)
+## Posicionamento do estudo (MVP)
 Este case deve ser lido como um MVP técnico orientado a necessidade real de operação, com escopo deliberadamente recortado para validar abordagem, arquitetura e capacidade de execução.
 
 Em termos objetivos:
@@ -181,12 +181,12 @@ Esses desafios, embora naturais em um projeto com múltiplas camadas, contribuí
 ---
 ### Persistência em Memória (Conforme Requisito do Teste)
 
-O PDF da prova prática da Velsis especifica que não deve haver uso de banco de dados.
+O enunciado original da prova prática especifica que não deve haver uso de banco de dados.
 Todas as infrações são armazenadas em memória utilizando um repositório interno
 (InMemoryViolationRepository), conforme solicitado. O objetivo é avaliar a lógica
 de apuração, validações e organização do código, sem dependências externas.
 
-## 12. Checklist de Conformidade com o Teste da Velsis
+## 12. Checklist de Conformidade com o Caso Original
 
 Esta seção foi atualizada para refletir as regras vigentes do desafio e os critérios de avaliação funcional.
 

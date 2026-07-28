@@ -1,7 +1,7 @@
-# Case Velsis para Portfólio
+# Case de Estudo Cara Core Informática para Portfólio
 
 ## Visão geral
-Projeto desenvolvido como um case único para a Velsis, unindo apuração de infrações de velocidade com uma visão mais ampla de monitoramento operacional e arquitetura de software.
+Projeto desenvolvido como um case único para a Cara Core Informática, unindo apuração de infrações de velocidade com uma visão mais ampla de monitoramento operacional, arquitetura de software e aplicação em mercados similares.
 
 ## Objetivo
 Demonstrar capacidade de transformar um problema de negócio em uma solução técnica organizada, testável e preparada para evolução.

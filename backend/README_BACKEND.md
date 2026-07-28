@@ -1,7 +1,7 @@
-VELSIS BACKEND - SISTEMA DE MONITORAMENTO
+CARA CORE BACKEND - SISTEMA DE MONITORAMENTO
 =========================================
 
-Este módulo contém a API REST e os agendadores (Schedulers) desenvolvidos em Java 17 e Spring Boot 3 para o teste técnico da Velsis.
+Este módulo contém a API REST e os agendadores (Schedulers) desenvolvidos em Java 17 e Spring Boot 3 para o case de estudo da Cara Core Informática.
 
 TECNOLOGIAS E PADRÕES
 ---------------------
@@ -14,7 +14,7 @@ TECNOLOGIAS E PADRÕES
 DECISÕES DE ARQUITETURA (FOCO NA AVALIAÇÃO)
 -------------------------------------------
 
-Como a aplicação visa avaliação para uma posição Júnior, priorizamos padrões de projeto e código limpo ao invés de acoplar ferramentas de peso (que exigem setup complexo do avaliador).
+Como a aplicação visa avaliação e estudo de arquitetura, priorizamos padrões de projeto e código limpo ao invés de acoplar ferramentas de peso (que exigem setup complexo do avaliador).
 
 1. Schedulers e SOLID (Mock RTSP): As rotinas de monitoramento utilizam agendamentos automáticos. Para a captura RTSP (que por padrão usaria bibliotecas nativas como OpenCV), aplicamos Inversão de Dependência (DIP). O serviço depende de uma interface, sendo injetado um Mock que responde os testes e gera o histórico da câmera conceitualmente. Em um ambiente de produção real, bastaria injetar a implementação concreta via FFmpeg/OpenCV.
 

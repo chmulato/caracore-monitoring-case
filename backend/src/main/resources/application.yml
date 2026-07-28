@@ -30,7 +30,7 @@ logging:
   level:
     root: INFO
     org.springframework.web: INFO
-    com.mulato.velsis.monitoramento: DEBUG
+    br.com.caracore.monitoramento: DEBUG
 
 springdoc:
   api-docs:

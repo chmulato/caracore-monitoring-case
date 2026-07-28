@@ -1,7 +1,7 @@
-VELSIS FRONTEND - DASHBOARD DE MONITORAMENTO
+Cara Core Frontend - Dashboard de Monitoramento
 ============================================
 
-O front-end do projeto Velsis foi construído com ferramentas modernas para garantir alta performance, fácil manutenção e testes robustos.
+O front-end do projeto foi construído com ferramentas modernas para garantir alta performance, fácil manutenção e testes robustos, servindo como demonstração visual para o case de estudo da Cara Core Informática.
 
 TECNOLOGIAS UTILIZADAS
 ----------------------
