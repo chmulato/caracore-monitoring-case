@@ -12,7 +12,7 @@ A ideia central é demonstrar uma proposta de solução coerente, organizada e p
 - [assets](assets): materiais visuais e recursos complementares.
 
 ## Documento central
-- [docs/case_unico_velsis.md](docs/case_unico_velsis.md)
+- [docs/case_estudo_cara_core.md](docs/case_estudo_cara_core.md)
 - [docs/case/README.md](docs/case/README.md)
 - [docs/hd/README_HD.md](docs/hd/README_HD.md)
 
@@ -150,7 +150,7 @@ workspace_velsis/
  ├── docs/
  │    ├── case/
  │    ├── hd/
- │    └── case_unico_velsis.md
+ │    └── case_estudo_cara_core.md
  ├── architecture/
  ├── deliverables/
  ├── sql/

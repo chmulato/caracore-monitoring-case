@@ -106,7 +106,7 @@ No mercado de tecnologia, esse tipo de desafio é conhecido como "Work Spec" ou 
 Aqui estão os motivos claros pelos quais este teste acende múltiplos sinais de alerta:
 
 1. Escopo de MVP Comercial Pronto para Uso
-O desafio não pede para você demonstrar lógica com algoritmos genéricos. Ele pede um sistema completo de telemetria e monitoramento de equipamentos embarcados — que é exatamente o core business de empresas de tecnologia de trânsito, segurança ou automação (como a Velsis).  
+O desafio não pede para você demonstrar lógica com algoritmos genéricos. Ele pede um sistema completo de telemetria e monitoramento de equipamentos embarcados — que é exatamente o core business de empresas de tecnologia de trânsito, segurança ou automação.
 PDF
 
 Sistema de monitoramento de disco/internet  
@@ -216,7 +216,7 @@ Faça o Rebranding Completo:
 
 Altere o nome do repositório no GitHub para algo genérico/comercial seu (ex: caracore-embedded-telemetry ou edge-stream-monitor).
 
-Remova qualquer menção ao nome da empresa ("Velsis"), ao nome do recrutador ou ao PDF do teste.
+Remova qualquer menção ao nome da empresa, ao nome do recrutador ou ao PDF do teste.
 
 Transforme o Readme num Showcase Comercial:
 

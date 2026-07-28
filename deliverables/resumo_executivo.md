@@ -1,7 +1,7 @@
 # Resumo Executivo
 
 ## Visão geral
-O projeto Velsis foi organizado como um case único de solução para um problema de operação viária, unindo dois níveis de desafio:
+O projeto foi organizado como um case único de solução para um problema de operação viária, unindo dois níveis de desafio:
 - a apuração de infrações de velocidade;
 - a proposta de monitoramento operacional e arquitetura para evolução de software.
 

@@ -1,12 +1,12 @@
-package com.mulato.api.speedviolation.service;
+package br.com.caracore.speedviolation.service;
 
-import com.mulato.api.speedviolation.config.ToleranceProperties;
-import com.mulato.api.speedviolation.model.entity.Violation;
-import com.mulato.api.speedviolation.model.enums.Origin;
-import com.mulato.api.speedviolation.model.enums.Severity;
-import com.mulato.api.speedviolation.model.request.ViolationRequest;
-import com.mulato.api.speedviolation.model.response.ViolationResponse;
-import com.mulato.api.speedviolation.repository.ViolationRepository;
+import br.com.caracore.speedviolation.config.ToleranceProperties;
+import br.com.caracore.speedviolation.model.entity.Violation;
+import br.com.caracore.speedviolation.model.enums.Origin;
+import br.com.caracore.speedviolation.model.enums.Severity;
+import br.com.caracore.speedviolation.model.request.ViolationRequest;
+import br.com.caracore.speedviolation.model.response.ViolationResponse;
+import br.com.caracore.speedviolation.repository.ViolationRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.ArgumentCaptor;

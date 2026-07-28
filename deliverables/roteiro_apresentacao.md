@@ -1,7 +1,7 @@
 # Roteiro de Apresentação
 
 ## 1. Abertura
-Apresentar o projeto como um case único de solução para a Velsis, com foco em operação viária, regras de negócio e arquitetura.
+Apresentar o projeto como um case único de solução da Cara Core Informática, com foco em operação viária, regras de negócio e arquitetura.
 
 ## 2. Contexto do problema
 Explicar que o desafio envolve não apenas a validação de uma infração, mas a necessidade de construir uma solução organizada e escalável.
