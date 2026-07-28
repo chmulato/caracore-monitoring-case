@@ -51,29 +51,44 @@ Esta solução é apresentada não apenas como um desafio técnico, mas como uma
 
 ---
 
-## 2. Estrutura do Projeto
+## 2. Estrutura de Empacotamento (Atualizada)
 
 ```plaintext
 workspace_velsis/
- ├── pom.xml
  ├── README.md
- ├── .gitignore
- ├── img/
- └── src/
-      ├── main/
-      │    ├── java/
-      │    │     └── com/
-      │    │          └── mulato/
-      │    │               └── api/
-      │    │                    └── speedviolation/
-      │    └── resources/
-      │          └── application.yml
-      └── test/
-           └── java/
-                └── com/
-                     └── mulato/
-                          └── api/
-                               └── speedviolation/
+ ├── pom.xml
+ ├── src/
+ │    ├── main/
+ │    │    ├── java/
+ │    │    └── resources/
+ │    └── test/
+ │         └── java/
+ ├── backend/
+ │    ├── pom.xml
+ │    ├── README_BACKEND.md
+ │    └── src/
+ │         ├── main/
+ │         │    ├── java/
+ │         │    └── resources/
+ │         └── test/
+ │              └── java/
+ ├── frontend/
+ │    ├── README_FRONTEND.md
+ │    └── velsis-frontend/
+ │         ├── package.json
+ │         ├── public/
+ │         ├── src/
+ │         └── tests/
+ ├── docs/
+ │    ├── case/
+ │    ├── hd/
+ │    └── case_unico_velsis.md
+ ├── architecture/
+ ├── deliverables/
+ ├── sql/
+ ├── swagger/
+ ├── assets/
+ └── img/
 ```
 
 ---
