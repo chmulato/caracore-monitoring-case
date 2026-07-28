@@ -145,27 +145,29 @@ de apuração, validações e organização do código, sem dependências extern
 
 ## 12. Checklist de Conformidade com o Teste da Velsis
 
-Esta seção valida ponto a ponto os requisitos funcionais e não funcionais descritos no PDF da prova prática.
+Esta seção foi atualizada para refletir as regras vigentes do desafio e os critérios de avaliação funcional.
 
 ### RF1 — Endpoint de Apuração
 - POST /api/v1/violations/evaluate implementado
-- Header obrigatório x-origin validado (FIXED, MOBILE, HANDHELD)
-- Corpo validado conforme especificação
+- Header obrigatório x-origin validado (case-sensitive: FIXED, MOBILE, HANDHELD)
+- Corpo validado conforme especificação de entrada
 - Respostas 200 para casos com e sem infração
-- Respostas 400 para erros de validação
+- Respostas 400 padronizadas para erros de validação
 
 ### RF2 — Validações
-- Placa nos formatos antigo e Mercosul (regex compilada como constante)
-- measuredSpeed > 0
-- speedLimit > 0
-- equipmentId obrigatório
-- captureTimestamp em ISO-8601 e não futuro
+- licensePlate obrigatório e válido nos formatos antigo e Mercosul
+- measuredSpeed obrigatório e > 0
+- speedLimit obrigatório e > 0
+- equipmentId obrigatório e não vazio
+- captureTimestamp obrigatório, em ISO-8601 e não futuro
 - x-origin obrigatório e válido
+- Regex de placa compilada como constante estática
 
 ### RF3 — Regras de Apuração
 - Tolerância fixa de 7 km/h para velocidades até 100 km/h
 - Tolerância percentual de 7% (truncado) para velocidades acima de 100 km/h
-- Cálculo do excesso percentual implementado
+- Cálculo do excesso percentual implementado: ((consideredSpeed - speedLimit) / speedLimit) * 100
+- Quando consideredSpeed <= speedLimit, sem infração e excessPercentage = 0
 - Classificação conforme CTB Art. 218:
   - MEDIUM (≤ 20%)
   - SERIOUS (> 20% e ≤ 50%)
@@ -175,14 +177,19 @@ Esta seção valida ponto a ponto os requisitos funcionais e não funcionais des
 - Armazenamento em memória conforme solicitado
 - Apenas infrações são persistidas
 - GET /api/v1/violations?licensePlate=ABC1D23 implementado
+- Consulta retorna lista vazia quando não houver registros
+- Estrutura preparada para acesso concorrente em memória
 
 ### RF5 — Tratamento de Erros
 - ControllerAdvice implementado
 - Mensagens claras e sem stack trace para o cliente
 - Logs contendo placa, equipamento, tipo de erro e timestamp
+- Diferenciação de erros de validação (4xx) e erros inesperados (5xx)
 
 ### RF6 — Casos Especiais
+- Velocidade medida igual ou abaixo do limite → sem infração
 - Velocidade dentro da tolerância → sem infração
+- Placas nos dois formatos aceitos (antigo e Mercosul)
 - Exatamente 20% e 50% tratados corretamente
 - Velocidade acima de 100 km/h com tolerância percentual
 - Timestamp futuro → erro 400
@@ -195,35 +202,43 @@ Esta seção valida ponto a ponto os requisitos funcionais e não funcionais des
 - Camadas separadas: controller, service, repository, model
 - DTOs usando records para imutabilidade
 - Regex como constante estática
+- Decisões de organização documentadas no README
 
 ### RNF2 — Configuração Externalizada
 - application.yml contendo:
-  - tolerance.fixed
-  - tolerance.percent
-  - tolerance.percentLimit
+  - server.port (padrão 8080)
+  - tolerance.fixed (padrão 7)
+  - tolerance.percent (padrão 7)
+  - tolerance.percentLimit (padrão 100)
+- Configurações passíveis de sobrescrita por ambiente
 
 ### RNF3 — Testes
 - Testes unitários cobrindo:
-  - tolerância
+  - cálculo de tolerância
   - excesso percentual
-  - classificação
-  - validações
-  - casos de borda
-- Testes de controller incluídos
+  - classificação por gravidade
+  - validações de entrada
+  - casos especiais e valores de fronteira
+- Testes de controller/integração do endpoint incluídos
+- Cobertura mínima de 80% na camada de regras de negócio
 
 ### RNF4 — Documentação
-- README completo
-- Exemplos de requisição (curl)
-- Swagger/OpenAPI disponível
+- README com:
+  - descrição do projeto e tecnologias
+  - pré-requisitos e execução
+  - exemplos de uso (infração, sem infração e erro)
+  - execução de testes
+  - decisões técnicas e justificativas
+- Swagger/OpenAPI disponível como diferencial aplicado
 
 ### RNF5 — Qualidade de Código
-- Clean Code aplicado
-- Sem prints ou código morto
-- Nomes claros e padronizados
+- Uso de recursos modernos de Java (records) para reduzir boilerplate
+- Convenções de nomenclatura e princípios de Clean Code
+- Código sem trechos mortos, sem prints de debug e com legibilidade priorizada
+- Boas práticas REST e tratamento consistente de exceções
 
 ---
 
 ## 14. Conclusão
 
-Todos os requisitos funcionais e não funcionais descritos no PDF da prova prática foram implementados.  
-O projeto está pronto para avaliação técnica pela equipe da Velsis.
+Com as regras atualizadas, os checklists de RF e RNF refletem o escopo vigente do desafio e mantêm rastreabilidade direta entre requisito e implementação.
