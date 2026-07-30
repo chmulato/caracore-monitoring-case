@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  speedviolation-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: speedviolation_api
+    ports:
+      - "8080:8080"
+    networks:
+      - monitoramento-network
+
+  monitoramento-api:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: monitoramento_api
+    ports:
+      - "8081:8080"
+    networks:
+      - monitoramento-network
+
+  frontend-dashboard:
+    build:
+      context: ./frontend/caracore-monitoring-case
+      dockerfile: Dockerfile
+    container_name: frontend_dashboard
+    ports:
+      - "80:80"
+    networks:
+      - monitoramento-network
+
+networks:
+  monitoramento-network:
+    driver: bridge
