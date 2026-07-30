@@ -38,7 +38,7 @@ class ViolationServiceTest {
     void shouldNotGenerateViolationWhenConsideredSpeedIsBelowLimit() {
         ViolationRequest request = new ViolationRequest(
                 "ABC1234",
-                80,
+                67,
                 60,
                 "EQ-01",
                 Instant.now()
@@ -55,7 +55,7 @@ class ViolationServiceTest {
     void shouldGenerateMediumViolation() {
         ViolationRequest request = new ViolationRequest(
                 "ABC1234",
-                90,
+                79,
                 60,
                 "EQ-01",
                 Instant.now()
@@ -73,7 +73,7 @@ class ViolationServiceTest {
     void shouldGenerateSeriousViolation() {
         ViolationRequest request = new ViolationRequest(
                 "ABC1234",
-                120,
+                97,
                 60,
                 "EQ-01",
                 Instant.now()
@@ -138,7 +138,7 @@ class ViolationServiceTest {
     void shouldSaveViolationInRepository() {
         ViolationRequest request = new ViolationRequest(
                 "ABC1234",
-                120,
+                97,
                 60,
                 "EQ-01",
                 Instant.now()
